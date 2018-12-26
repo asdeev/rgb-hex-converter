@@ -1,3 +1,8 @@
+// TODO: Add in color picker
+// TODO: Display color profile based on rgb or hex values
+// TODO: Allow color picker to modify hex and rgb values
+// TODO: Allow rgb or hex input to modify color picker
+
 function processRGB(e) {
     const initial = Math.floor(this.value / 16);
     const rem = this.value % 16;
