@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RGB <--> Hexadecimal Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="heading">RGB <--> Hexadecimal Converter</h1>
+    <hr>
+    <h4>Select if you want to convert a single value or multiple values</h4>
+    <label for="single">
+        <input id="single" class="selector-radio" name="selector-option" type="radio" value="single" checked>
+        Single
+    </label>
+    <label for="multiple">
+        <input id="multiple" class="selector-radio" name="selector-option" type="radio" value="multiple">
+        Multiple
+    </label>
+    <br>
+    <main>
+        <div class="main-container">
+            <label for="rgb">
+                <input id="rgb" class="converter-input" type="text" placeholder="RGB Value">
+            </label>
+            <br>
+            <label for="hex">
+                <input id="hex" class="converter-input" type="text" placeholder="Hex Value">
+            </label>
+        </div>
+    </main>
+</body>
+</html>
