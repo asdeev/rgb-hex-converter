@@ -1,9 +1,14 @@
+:root {
+    --theme-primary: rgba(0, 85, 85, 0.5);
+    --theme-secondary: rgba(45, 0, 45, 0.7);
+}
 .heading {
     text-align: center;
-    background-color: rgba(0, 85, 85, 0.5);
-    color: rgba(45, 0, 45, 0.7);
+    font-size: 48px;
+    background-color: var(--theme-primary);
+    color: var(--theme-secondary);
     border: 0.05em black solid;
-    width: 50%;
+    width: 100%;
     box-shadow: 0 10px 20px rgba(0, 0, 0 , 0.25);
 }
 .selector-radio {
@@ -13,7 +18,10 @@
     margin: 20px 0 0 20px;
 }
 .converter-input {
-    width: 200px;
-    padding: 2px;
+    font-size: 36px;
+    width: 250px;
+    padding: 8px;
     margin: 5px 0 5px 0;
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--theme-primary);
 }
