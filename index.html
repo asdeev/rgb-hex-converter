@@ -12,7 +12,7 @@
     <!-- TODO: Update visual elements and styles -->
     <h1 class="heading">RGB <--> Hexadecimal Converter</h1>
     <hr>
-    <h4>Select if you want to convert a single value or multiple values</h4>
+    <h2>Select if you want to convert a single value or multiple values</h2>
     <label for="single">
         <input id="single" class="selector-radio" name="selector-option" type="radio" value="single" checked>
         Single
@@ -24,13 +24,17 @@
     <br>
     <main>
         <div class="main-container">
-            <label for="rgb">
-                <input id="rgb" class="converter-input" type="text" placeholder="RGB Value">
+            <label for="rgb-input">
+                <input id="rgb-input" class="converter-input" type="text" placeholder="RGB Input">
             </label>
             <br>
-            <label for="hex">
-                <input id="hex" class="converter-input" type="text" placeholder="Hex Value">
+            <label for="hex-input">
+                <input id="hex-input" class="converter-input" type="text" placeholder="Hex Input">
             </label>
+        </div>
+        <div class="value-container">
+            <h4>RGB Value: <span class="rgb-output"></span></h4>
+            <h4>Hex Value: <span class="hex-output"></span></h4>
         </div>
     </main>
     <script src="src/app.js"></script>
